@@ -52,6 +52,6 @@ streamlit.dataframe(my_data_rows)
 #lets add a text input
 fruit_entry = streamlit.text_input('What fruit would you like to add?','jackfruit')
 streamlit.write('Thanks for adding ', fruit_entry)
-streamlit.dataframe(fruit_entry)
+#streamlit.dataframe(fruit_entry)
 
 
